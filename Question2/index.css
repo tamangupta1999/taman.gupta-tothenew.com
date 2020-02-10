@@ -1,0 +1,136 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.head{
+    margin: 5px ;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.head nav ul{
+    list-style-type: none;
+    display: flex;
+    border-bottom: 2px solid burlywood;
+    padding: 1%;
+    position: relative
+}
+.head nav ul li{
+    color: mediumseagreen;
+}
+.head nav ul .logo h2{
+    position: absolute;
+    
+}   
+
+.head nav ul .element{
+    position: relative;
+    left:80%;
+    bottom: -40%;
+    padding:1%;
+}
+.head nav ul .element a{
+    text-decoration: none;
+    color: mediumseagreen;
+    font-weight: bold;
+}
+.head nav ul .element a:hover{
+    color: crimson;
+}
+
+.section{
+    position: relative;
+    left: 20%;
+    width: 50%;
+    height: auto;
+    border: 2px solid darkgrey;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 5px;
+    background-color: darkgrey;
+}
+.section h2{
+   
+  position: relative;
+  color: white;
+
+}
+.section .value{
+    background-color: white;
+    padding: 2%;
+}
+.section .value .inp{
+    margin-top: 1%;
+    position: relative;
+    width: 90%;
+    margin-bottom: 2%;
+}
+.area{
+    margin-top: 10px;
+    margin-bottom:2% ;
+}
+.section .value #OperatingSystem{
+    margin: 1%;
+    position: relative;
+    width: 90%;
+    color: white;
+    background-color: mediumseagreen;
+    border-radius: 7px;
+    height: 35px;
+    
+    
+}
+.section .value #Product{
+    margin: 1%;
+    margin-top: 2%;
+    position: relative;
+    width: 90%;
+    color: white;
+    background-color: mediumseagreen;
+    border-radius: 7px;
+    height: 35px;
+}
+.section .value .version{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.section .value .radio{
+    display: flex;
+    margin: 2%;
+}
+.section .value .radio #sec{
+    margin-left: 50%;
+}
+.section .value #Severity{
+    margin: 1%;
+    margin-top: 2%;
+    position: relative;
+    width: 90%;
+    color: white;
+    background-color: mediumseagreen;
+    border-radius: 7px;
+    height: 35px;
+}
+.section .value #myFile{
+    margin: 2%;
+    padding: 1%;
+    border: 1.5px solid gray;
+    border-radius:10px;
+    width: 87%;
+}
+.section .value button{
+  position: relative;
+  left: 80%;
+  margin-top:2% ;
+  background-color: mediumseagreen;
+  padding-top:1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 3%;
+  padding-left: 3%;
+  border-radius: 5px;
+  color: white;
+
+}

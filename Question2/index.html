@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Question 2</title>
+</head>
+
+<body>
+    <header class="head">
+        <nav>
+            <ul>
+                <li class="logo">
+                    <h2>To The New</h2>
+                </li>
+                <li class="element"><a href="index.html">Home</a></li>
+                <li class="element">
+                    <a href="index.html">Quick Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form class="section">
+        <h2>Bug Report</h2>
+        <section class="value">
+            Title:<br>
+            <input class="inp" type="text" id="title" name="title" placeholder="Enter Title.." required>
+            Description:<br>
+            <textarea class="area" rows="4" cols="77" type="text" name="description"
+                placeholder="Enter Your Description....">
+            </textarea>
+            Operating System:<br>
+            <select id="OperatingSystem" required>
+                <option value="WindowsXP">WindowsXP</option>
+                <option value="Linux">Ubuntu</option>
+                <option value="Mac">Mac</option>
+                <option value="Linux">Redhat</option>
+            </select>
+
+            Product:<br>
+            <select id="Product" required>
+                <option value="FromOld">FromOld</option>
+                <option value="value1">value1</option>
+                <option value="value2">value2</option>
+                <option value="value3">value3</option>
+            </select>
+            Version:<br>
+            <input class="version" type="text" id="title" name="title" placeholder="" required>
+            <br>License:<br>
+            <div class="radio">
+                <input type="radio" name="free" value="Free"> Free<br>
+                <input type="radio" id="sec" name="Business" value="Business"> Business<br>
+            </div>
+            Severity:<br>
+            <select id="Severity" required>
+                <option value="Critical">Critical</option>
+                <option value="value1">value1</option>
+                <option value="value2">value2</option>
+                <option value="value3">value3</option>
+            </select>
+            Attachments:<br>
+            <input type="file" id="myFile" name="filename">
+            <button type="submit" name="button" id="button">Send</button>
+        </section>
+
+    </form>
+</body>
+
+</html>
