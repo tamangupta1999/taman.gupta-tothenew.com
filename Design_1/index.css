@@ -1,0 +1,53 @@
+*{
+    font-size: 1rem;
+}
+.bdy{
+    margin: 0%;
+    padding: 0%;
+}
+.container-fluid{
+    background-color: gray;
+}
+.img-fluid{
+    margin:2%;
+}
+#second{
+    background-color: white;
+    padding: 0%;
+}
+#logo{
+    background-color:black;
+
+}
+#nav{
+    background-color: black;
+
+}
+#first{
+    border-top: 2px solid darkgray;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+ background-color: black;
+
+}
+#third{
+    border-bottom: 2px solid darkgray;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+ background-color: black;
+
+}
+#para{
+    background-color:lightgray;
+   margin: 2%;
+}
+.card{
+    width: 215px;
+    height: 320px;
+}
+#fifth{
+    background-color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 2%;
+}

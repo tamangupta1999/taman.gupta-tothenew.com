@@ -1,0 +1,22 @@
+#logo{
+    color: mediumseagreen;
+    font-size: 2rem;
+}
+#icon{
+    color: mediumseagreen;
+}
+#bug{
+    background-color: gray;
+    color: white;
+    padding: 2%;
+}
+#formval{
+    border: 2px solid gray;
+}
+button[type=submit]{
+    background-color: mediumseagreen;
+}
+#op{
+    background-color: mediumseagreen;
+    color: white;
+}
