@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        body{
+            background-color: tan;
+        }
+        header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 1px solid lavender;
+            margin-left: 2%;
+
+        }
+
+        header #login {
+            float: right;
+            margin: 1.5%;
+            margin-right: 4%;
+            background-color: blue;
+            padding: 0.5%;
+	    color:white;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 15% 85%;
+        }
+
+        #main #navigation #list {
+            list-style-type: none;
+        }
+
+        #list li {
+            margin-top: 5%;
+        }
+
+        #section img {
+            margin-left: 5%;
+        }
+        #para {
+            display: grid;
+            grid-template-columns: 30% 60%;
+        }
+
+        #para img {
+            margin-top: 5%;
+        }
+
+        #para p {
+            display: inline;
+        }
+
+        #form {
+            margin-top: 3%;
+        }
+        #form form{
+            display: inline;
+            
+        }
+        .lab{
+            margin-left: 4%;
+        }
+        table{
+            width: 80%;
+        }
+        #data{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://previews.123rf.com/images/logomatch/logomatch1610/logomatch161000650/66645138-random-oval-shape-logo-overlapping-circle-symbol-creative-design.jpg"
+            alt="website logo">
+        <button id="login"><strong>Login</strong></button>
+    </header>
+    <main id="main">
+        <nav id="navigation">
+            <ul id="list">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Work</a> </li>
+                <li><a href="#">About</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+
+            </ul>
+        </nav>
+        <section id="section">
+            <img class="image1" src="https://source.unsplash.com/collection/190727/150x150
+        " alt="image1">
+            <img src="https://source.unsplash.com/collection/190727/150x150
+        " alt="image2">
+            <img src="https://source.unsplash.com/collection/190727/150x150
+        " alt="image3">
+            <img src="https://source.unsplash.com/collection/190727/150x150
+        " alt="image4">
+
+            <section id="para">
+                <img src="https://source.unsplash.com/collection/190727/300x300" alt="image5">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim vel sit, ducimus harum labore adipisci
+                    iusto voluptates aliquam sunt provident nulla. Minus eaque odio fuga tempora officiis nesciunt rem
+                    voluptatibus rerum nihil neque, praesentium enim facere similique cupiditate blanditiis culpa
+                    exercitationem ducimus a accusantium dolores illo! Exercitationem ex unde maiores nam necessitatibus
+                    harum esse recusandae laudantium accusantium, voluptates dolore itaque. Ea sit necessitatibus ipsam
+                    cum quos quam, enim aspernatur laudantium aperiam recusandae, vel unde, nisi libero beatae mollitia
+                    illo ullam culpa placeat. Ad non facere possimus enim, natus fuga ut blanditiis earum incidunt
+                    tenetur ea, adipisci cupiditate quaerat? Eaque aliquam distinctio iusto quasi. Eveniet, ullam
+                    expedita aliquid alias voluptas quisquam, molestias veniam non saepe ex labore fugit iure. Ipsa
+                    adipisci laborum cumque autem et nemo, doloribus facere illo iusto consectetur quae obcaecati quasi
+                    sunt ratione, officiis quas aliquid distinctio laudantium optio non quos ipsum reprehenderit.
+                    Accusamus sit laudantium error corrupti, modi consequuntur quia eaque itaque, nostrum porro quasi
+                    culpa voluptas earum repellendus reiciendis nisi placeat? Neque fugiat veritatis impedit magnam
+                    provident dolorem quibusdam maxime molestiae iste cumque soluta aut ad laborum praesentium
+                    accusantium, aliquam deleniti nesciunt consectetur sapiente libero temporibus minima. Expedita
+                    assumenda totam perferendis asperiores nihil animi commodi amet!
+                </p>
+            </section>
+            <section id="form">
+                <form action="">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter Your Name...">
+                        <label for="email" class ="lab">Email:</label>
+                        <input type="email" id="email" placeholder="Enter Your Email....">
+                    <button type="submit" class ="lab">Submit</button>
+                </form>
+
+            </section>
+            <section id="udata">
+                <h3>User</h3>
+                <table border="1">
+                    <thead>
+                        <tr>
+                        <th colspan="2">Name </th>
+                        <th rowspan="2">Training Name</th>
+                        </tr>
+                        <tr >
+                            <th >First_Name </th>
+                            <th>Last_Name</th>
+                            </tr>
+                    </thead>
+              
+                    <tbody id="data">
+                        <tr>
+                            <td>Taman</td>
+                            <td>Gupta</td>
+                            <td>MEAN</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Den</td>
+                            <td>JVM</td>
+                        </tr>
+                        <tr>
+                            <td>Will</td>
+                            <td>Smith</td>
+                            <td>AMC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+        </section>
+
+    </main>
+</body>
+
+</html>
