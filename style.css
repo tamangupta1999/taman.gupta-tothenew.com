@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;   
+    font-size: 13px;
+    color: #676a6c;
+    background-color: #e3e3e3;
+
+}
+#sidebar {
+    float: left;
+    z-index: 3;
+    width: 220px;
+    height: 100%;
+    background-color: #01162b;
+}
+#nav-header {
+    padding: 33px 25px;
+    height:150px;
+    width: 220px;
+    background:url('https://newersworld.tothenew.com/assets/admin/patterns/header-profile-2a634a94d5b175c41a71fac233a52f53.png') ;
+    display: inline-block;
+}
+#nav-header img{
+    width :48px;
+    height: 48px;
+    border-radius: 50%;
+}
+#nav-header h4 {
+    color: #fff;
+    margin-top: 3px;
+
+}
+#nav-item {
+    height : 1000px;
+    width: 220px;
+    background-color: #2f4050;
+    overflow: auto;
+}
+#nav-item ul li{
+    list-style: none;
+}
+#nav-item ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 20px 25px;
+}
+#nav-item ul li a:hover {
+    background-color: #062f57;
+}
+#top-bar {
+    left : 220px;
+    position : fixed;
+    background: #e3e3e3;;
+    top:0;
+    height: 60px;
+    width: 1070px;
+    border-bottom: 2px solid #e3e3e3;
+    z-index: 2;
+}
+#top-bar #side-button {
+    background-color:#1ab394;
+    border-radius: 5px;
+    height: 35px;
+    width: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#top-bar #side-button img {
+    height : 15px;
+    width: 20px;
+   
+}
+#top-bar input[type=text]{
+        border: none;
+        background: #e3e3e3;;
+        padding:20px 5px;
+        color: white;
+        width: 350px;
+}
+#top-bar input[type=text]:focus {
+    outline: none;
+}
+#top-bar #logout-btn {
+    border: none;
+    background: #e3e3e3;;
+    float: right;
+    color: #787777;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none; 
+    margin: 17px 30px;
+}
+#top-bar #logout-btn:hover{
+    color: maroon;
+}
+
+#page-heading {
+    position: relative;
+    width: 82.8%; 
+    float: right;
+    top:60px;
+    padding: 10px 20px;
+    border-bottom: 0.5px solid #e3e3e3;
+    background: #fff;
+}
+#page-heading p {
+    font-size: x-large;
+    margin-bottom: 10px;
+
+}
+#user-profile {
+    position: relative;
+    top: 80px;
+    float: right;
+    width: 82.8%;
+    z-index: 1;
+}
+#profile {
+    display: inline-block;
+    height: 290px;
+    width: 672.66px;
+    margin-left: 20px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+#stakeholders {
+    /* display: inline-block; */
+    float: right;
+    height: 290px;
+    width: 300px;
+    background: #fff;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+#profile #display-p {
+    float: left;
+    width: 33.33%;
+}
+#profile #display-p img {
+    height: 124px;
+    width: 125px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-bottom: 5px;
+
+}
+#profile #details {
+    float: right;
+    width: 66.64%;
+}
+#profile #display-p a {
+    text-decoration: none;
+    color: gray;
+    margin-top: 50px;
+    padding: 3px;
+}
+#profile #display-p #call-a {
+    margin-left: 70px;
+}
+#profile #display-p #status {
+    text-align: center;
+    margin-top: 10px;
+}
+#details a {
+    text-decoration: none;
+    background-color:#d1dade;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: smaller;
+    float: right;
+}
+#details img {
+    /* float: right; */
+    margin-right: 8px;
+}
+#details .icon-1 {
+    float: right;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#details #name {
+    font-size: x-large;
+    margin-left: 60px;
+}
+#details #desig {
+    font-size: large;
+    margin-left: 62px;
+    margin-bottom: 20px;
+}
+#details .info {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+#stakeholders #stake-head {
+    padding: 15px;
+    border-bottom: 1px solid #e3e3e3;
+} 
+#stakeholders #stake-1 {
+    margin-bottom: 10px;
+}
+#stakeholders #stake-1 img {
+    height : 48px;
+    max-width: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 1px solid #5a5c5d;
+    margin: 20px 20px;
+    float: left;
+} 
+#stakeholders #stake-1 span {
+        display: inline-block;
+        margin-top: 20px; 
+        font-size:medium ;
+        font-weight: bold;
+        color: blue;
+}
+#stakeholders #stake-2 {
+    width: 300px;
+    height: 68px;
+    padding: 10px;
+    
+}
+
+#stakeholders #stake-2 img {
+    height : 48px;
+    max-width: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 1px solid #5a5c5d;
+    margin: 20px 10px;
+    float: left;
+} 
+#stakeholders #stake-2 span {
+    display: inline-block;
+    margin-top: 20px; 
+    font-size:medium ;
+    font-weight: bold;
+    color: blue;
+}
