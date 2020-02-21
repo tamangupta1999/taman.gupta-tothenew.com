@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    font-family: sans-serif, Arial, Helvetica;    
+    font-size: 15px;
+}
+.container {
+    max-width: 1000px;
+    overflow: auto;
+    margin: auto;
+    padding: 0px 20px;
+}
+.clr {
+    clear: both;
+    display: block;
+}
+.top-navbar {
+    background:  #f4f4f4;
+    overflow: auto;
+}
+.left-navbar {
+    float: left;
+    padding: 10px;
+    
+}
+.left-navbar li {
+    list-style: none;
+    display: inline;
+}
+.left-navbar a{
+    color : #333;  
+    text-decoration: none; 
+    font-size: 14px;
+}
+.left-navbar a:hover {
+    color: coral;
+}
+.right-navbar {
+    float: right;
+    padding: 10px 0px;
+}
+.right-navbar i {
+    padding-right: 5px;
+    color: green;
+    cursor: pointer;
+}
+
+/* Heading-Info */
+.heading-info {
+    color: green;
+    float: left;
+    width: 45%;
+    /* margin: 25px 0px; */
+    padding: 18px 0px;
+}
+.heading-info i{
+    float: left;
+    margin-right: 10px;
+    color: green
+}
+.heading-info p {
+    color: #333;
+}
+.contact-info {
+    float: right;
+    width: 55%;
+    padding: 20px 0px;
+    color: green;
+}
+.contact-info .contact-details {
+    width: 40%;
+    float: left;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+.contact-info .contact-details i {
+    float: left;
+    /* margin-right: 15px; */
+}
+.contact-info .contact-details p {
+    margin-left: 40px;
+    color: #333;
+}
+.contact-info .contact-details .email-head {
+    margin-left: 40px;
+    line-height: 0;
+    color: #333;
+}
+.contact-info .location-info i {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.contact-info .location-info span {
+    display: inline-block;
+    margin-top: 20px;
+}
+.contact-info .location-info a {
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+    border: 2px solid green;
+    padding: 15px 20px;
+    font-size: 14px;
+    float: right;
+    margin-top: 5px;
+}
+
+/* main nav */
+.nav-container {
+    background: yellowgreen;
+    overflow: auto;
+}
+.main-nav {
+    margin: 10px 0px;
+}
+.main-nav  li {
+    list-style: none;
+    display: inline;
+}
+.main-nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 13px;
+
+} 
+
+/* image section */
+
+.main-content {
+    background: url('../images/back-1.jpg') no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    z-index: 1;
+}
+.main-content .content {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 2;
+    color: white;
+    position: relative;
+    z-index: 2;
+
+}
+.main-content .content .content-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 3;
+}
+.main-content .content-info .title {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.main-content .content-info .title-content {
+    margin-bottom: 30px;
+}
+.main-content .content-info a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main-content .content-info .g-btn {
+    background: yellowgreen;
+}
+
+
+/* final section */
+
+.course-container {
+    max-width: 900px;
+    margin: auto;
+    margin-top: -80px;
+    z-index: 10;
+}
+.course-container .box {
+    height:250px;
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    padding: 30px 20px;
+
+}
+#box-1 {
+    background: blue;
+    
+}
+#box-2 {
+    background: indianred;
+}
+#box-3 {
+    background: yellowgreen;
+}
+#box-4 {
+    background: orange;
+}
+#box-1 i,p ,h2{
+    margin-bottom: 20px;
+}
+#box-2 i,p ,h2{
+    margin-bottom: 20px;
+}
+#box-3 i,p ,h2{
+    margin-bottom: 20px;
+}
+#box-4 i,p ,h2{
+    margin-bottom: 20px;
+}
