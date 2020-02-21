@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* height: 5000px; */
+}
+.clr {
+    clear: both;
+}
+/* Navbar  */
+header {
+    position: sticky;
+    top:0;
+}
+.navbar {
+    background-color: rgb(62, 91, 153);
+    overflow: auto;
+    
+}
+.navbar-item {
+    width: 980px;
+    margin: auto;
+}
+.navbar h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 17px;
+    float: left;
+}
+.navbar .navbar-item .login-cred td  {
+    color: #fff;
+    font-size: 12px;
+}
+.navbar .navbar-item input {
+    border: 1px solid #333;
+}
+.navbar .navbar-item .login-cred {
+    float: right;
+    width: 42%;
+    padding: 13px 0px 0px 0px;
+}
+.navbar-item .login-cred thead td {
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    
+} 
+.navbar-item .login-cred tr td input{
+        width : 85%;
+        padding: 2px;
+}
+.navbar-item .login-cred tr td a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+}
+.navbar-item .login-cred tr td button {
+    font-size: 13.33px;
+    color: #fff;
+    background-color: rgb(62, 91, 180);
+    border: 1px solid rgb(62, 91,240);
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: -10px;
+    padding: 5px;   
+}
+/* Form Section */
+.form-section .right-space {
+    float: left;
+    width: 50%;
+}
+.form-section .right-space .image-head {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+/* Sign Up Form */
+
+.form-section{  
+    background: linear-gradient(white, #D3D8E8);
+}
+.form-section .form-body {
+    float: right;
+    width: 44%;
+}
+.form-body .form-head {
+    padding: 20px 0px;
+}
+.form-body .form-head h1{
+        font-size: 36px;
+        margin-bottom: 5px;
+}
+.form-body .sign-up-form .f-name {
+            padding: 8px 10px;
+            width: 49.2%;
+            border-radius: 5px;
+            border: 1px solid #D3D8E8;
+}
+#sign-up-form .m-num {
+            width: 100%;
+            padding: 8px 10px;
+            border-radius: 5px;
+            border: 1px solid #D3D8E8;
+            margin-top: 10px;
+
+}
+::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-body .sign-up-form #birthday label:first-child,
+.form-body .sign-up-form #gender label:first-child {
+        padding-top: 20px;
+        margin-bottom: 7px;
+        display: block;
+        color: #90949c;
+        font-size: 16px;
+        font-weight: bold;
+}
+.form-body .sign-up-form .birthday select {
+    padding: 5px;
+    background-color: #fff;
+}
+#gender {
+    font-size: 20px;
+    opacity: 0.9;
+}
+#gender label {
+    margin: 0px 4px 0px 0px;
+    padding: 5px 0px 5px 4px ;
+    display: inline-block;
+    margin-right: 10px;
+}
+#gender input:nth-child(2) {
+    margin-left: 15px;
+}
+#sign-up-form p {
+    font-size: 11.5px;
+    text-align: left;
+    width: 75%;
+    color: #333;
+    margin: 11px 0px;
+}
+#sign-up-form p a {
+    text-decoration: none;
+}
+#sign-up-form button {
+    background: linear-gradient(#67ae55, #578843);
+    padding: 10px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    cursor: pointer;
+}
+#sign-up-form #l-content a {
+    font-size: 14px;
+    font-weight: bolder;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

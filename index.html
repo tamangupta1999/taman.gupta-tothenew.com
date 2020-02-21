@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Facebook Replica</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-item">
+                <h1>facebook</h1>
+                <div class="login-cred">
+                    <table>
+                        <thead>
+                            <td>Email or Phone</td>
+                            <td>Password</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> <input type="email" id="email"></td>
+                                <td><input type="password" id="password"></td>
+                                <td><button type="submit">Log In</button></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="#">Forget Password</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="clr"></div>
+    <section class="form-section">
+        <div class="navbar-item">
+            <div class="right-space">
+                <h2 class="image-head">Facebook helps you connect and share with the people in your life.</h2>
+                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/OBaVg52wtTZ.png" alt="f-image">
+            </div>
+            <div class="form-body">
+                <div class="form-head">
+                    <h1>Create an account</h1>
+                    <p>It's quick and easy </p>
+                </div>
+                <div class="sign-up-form" id="sign-up-form">
+                    <input class="f-name" type="text" placeholder="First Name">
+                    <input class="f-name" type="text" name="" placeholder="Sur Name">
+                    <input class="m-num" type="text" placeholder="Mobile number or email address">
+                    <input class="m-num" type="password" placeholder="New Password">
+                    <div class="birthday" id="birthday">
+                        <label for="date">Birthday</label>
+                        <select name="birth_day" id="day" title="day">
+                            <option value="1">10</option>
+                            <option value="2" selected>20</option>
+                            <option value="3">13</option>
+                            <option value="4">14</option>
+                            <option value="5">15</option>
+                        </select>
+                        <select name="birth_month" id="month" title="mont">
+                            <option value="1">Jan</option>
+                            <option value="2" selected>Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                        </select>
+                        <select name="birth_year" id="year" title="year">
+                            <option value="1">1995</option>
+                            <option value="2" selected>1996</option>
+                            <option value="3">1997</option>
+                            <option value="4">1998</option>
+                            <option value="5">1999</option>
+                        </select>
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="gender" id="gender">
+                        <label for="Gender"> Gender</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </div>
+                    <p>By clicking Sign Up, you agree to our
+                        <a href="#">Terms,&nbsp; Data Policy, &nbsp;Cookie Policy</a> .
+                        You may receive SMS notifications from us and can opt out at any time.</p>
+
+                    <button type="submit">Sign Up</button>
+                    <p id="l-content"><a href="#">Create a Page </a>&nbsp;for celebrity, band or business. </p>
+                </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </section>
+    <footer>
+        <div class="company-info">
+            Copyright &copy; To The New 2020&nbsp;| All Rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
