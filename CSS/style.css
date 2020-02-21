@@ -143,7 +143,7 @@ body {
 .main-content .content {
     height: 600px;
     width: 100%;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.5);
     z-index: 2;
     color: white;
     position: relative;
@@ -182,6 +182,7 @@ body {
 /* final section */
 
 .course-container {
+    position: relative;
     max-width: 900px;
     margin: auto;
     margin-top: -80px;
