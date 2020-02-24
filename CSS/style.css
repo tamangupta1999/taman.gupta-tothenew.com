@@ -1,0 +1,259 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+    }
+    
+    header {
+        background: url('../images/back_1.jpg') no-repeat center center/cover;
+        height: 90vh;
+        position: relative;
+    }
+    
+    .clr {
+        clear: both;
+    }
+    /* Navbar  */
+    
+    .nav-container {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 90vh;
+    }
+    
+    .nav-container .navbar {
+        color: white;
+        max-width: 80%;
+        margin: auto;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .nav-container .navbar p {
+        font-weight: bold;
+        float: left;
+        padding-top: 2rem;
+    }
+    
+    .nav-container .navbar i {
+        display: none;
+    }
+    
+    .nav-container .navbar ul {
+        float: right;
+        max-width: 50%;
+        padding-top: 2rem;
+        font-weight: bold;
+    }
+    
+    .nav-container .navbar ul li {
+        float: left;
+        list-style: none;
+    }
+    
+    .nav-container .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+    
+    .nav-container .navbar ul li .last-ele {
+        margin-right: 0;
+    }
+    
+    .nav-container .header-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+        height: 35vh;
+        /* width: 25%; */
+    }
+    
+    .nav-container .header-content h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+        margin-bottom: 2.5rem;
+        font-weight: 300;
+    }
+    
+    .nav-container .header-content .left-icon {
+        border-right: 1px solid navajowhite;
+        float: left;
+        text-align: center;
+        line-height: 1.5rem;
+        padding-right: 6rem;
+        /* padding-left: 2rem; */
+    }
+    
+    .nav-container .header-content .left-icon i {
+        color: mediumseagreen;
+        margin-bottom: 1rem;
+    }
+    
+    .nav-container .header-content .right-icon {
+        float: right;
+        text-align: center;
+        line-height: 1.5rem;
+        /* padding-right: 2rem; */
+        padding-left: 6rem;
+    }
+    
+    .nav-container .header-content .right-icon i {
+        color: mediumseagreen;
+        margin-bottom: 1rem;
+    }
+    
+    .nav-container .header-content .right-icon span,
+    .nav-container .header-content .left-icon span {
+        color: #999;
+        font-weight: 600;
+    }
+    
+    .nav-container .header-content .btn {
+        text-decoration: none;
+        color: mediumseagreen;
+        display: inline-block;
+        margin-top: 4rem;
+        padding: 0.5rem 2rem;
+        border: 2px solid mediumseagreen;
+        border-radius: 1.25rem;
+    }
+    
+    .nav-container .header-content .btn:hover {
+        color: coral;
+    }
+    /*  Card Section */
+    
+    .card .card-left {
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 4rem 3rem 2rem 10rem;
+    }
+    
+    .card .card-left img {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        margin-bottom: 0.8rem;
+        opacity: 0.8;
+    }
+    
+    .card .card-left .btn,
+    .card .card-right .btn {
+        text-decoration: none;
+        color: mediumseagreen;
+        display: inline-block;
+        margin-top: 2rem;
+        padding: 0.5rem 2rem;
+        border: 2px solid mediumseagreen;
+        border-radius: 1.25rem;
+    }
+    
+    .card .card-right {
+        float: right;
+        width: 50%;
+        text-align: center;
+        padding: 4rem 10rem 2rem 3rem;
+    }
+    
+    .card .card-right img {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        margin-bottom: 0.8rem;
+        opacity: 0.8;
+    }
+    
+    .card .card-right h1,
+    .card .card-left h1 {
+        margin-bottom: 1.5rem;
+        font-weight: 100;
+    }
+    
+    .card .card-left p,
+    .card .card-right p {
+        padding: 0rem 3rem;
+        color: #999;
+    }
+    /* Media Query For tablet */
+    
+    @media (min-width: 511px) and (max-width: 780px) {
+        .nav-container .navbar i {
+            display: none;
+        }
+        .nav-container .header-content .left-icon {
+            padding-right: 1.5rem;
+        }
+        .nav-container .header-content .right-icon {
+            padding-left: 1.5rem;
+        }
+        .nav-container .header-content .btn {
+            margin-top: 2rem;
+        }
+        .card .card-left,
+        .card .card-right {
+            float: none;
+            width: 100%;
+            text-align: center;
+            padding: 3rem 4rem;
+        }
+    }
+    /* Media Query For Smartphone */
+    
+    @media (max-width: 510px) {
+        .nav-container .navbar ul {
+            display: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-container .navbar i {
+            display: block;
+            float: right;
+            padding-top: 1rem;
+            position: relative;
+        }
+        .nav-container .navbar i:hover+ul {
+            position: absolute;
+            background: green;
+            display: block;
+            left: 56%;
+            top: 7%;
+            z-index: 10;
+        }
+        .nav-container .navbar ul li {
+            float: none;
+            padding: 1rem 2rem;
+        }
+        .nav-container .header-content .left-icon {
+            float: none;
+            border: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 1.5rem;
+        }
+        .nav-container .header-content .right-icon {
+            float: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-container .header-content .btn {
+            margin-top: 2.5rem;
+        }
+        .card .card-left,
+        .card .card-right {
+            float: none;
+            width: 100%;
+            text-align: center;
+            padding: 3rem 4rem;
+        }
+    }
