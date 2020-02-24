@@ -72,7 +72,7 @@ body {
     color: green;
 }
 .contact-info .contact-details {
-    width: 40%;
+    width: 36%;
     float: left;
     margin-right: 35px;
     margin-top: 10px;
@@ -93,12 +93,12 @@ body {
 .contact-info .location-info i {
     float: left;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 11px;
 }
 
 .contact-info .location-info span {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 17px;
 }
 .contact-info .location-info a {
     font-weight: bold;
