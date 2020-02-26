@@ -1,0 +1,27 @@
+.l-heading {
+    font-size: 3.5rem;
+}
+#navbar {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.7;
+}
+#what .items {
+    flex-direction: column;
+}
+#what .items .item {
+    margin-bottom: 1rem;
+}
+
+#who {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#who .info-content  {
+    text-align: center;
+}
+
+#contact {
+    flex-direction: column;
+}
