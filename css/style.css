@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway' ;
+}
+.lead {
+    font-size: 3rem;
+}
+.s-heading {
+    font-size: 1rem;
+}
+.m-heading {
+    font-size: 1.4rem;
+    /* font-weight: bold; */
+}
+.l-heading {
+    font-size: ;
+}
+.text-primary {
+    color: #555;
+}
+.text-secondary {
+    color: darkorange;
+}
+.p-heading {
+    font-size: 0.8rem;
+
+}
+/* Navbar  */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+/* Showcase Styling */
+
+#showcase {
+    background: #333 url('../images/background-img.jpg') no-repeat center center/cover;
+    padding: 2rem;
+}
+#showcase .showcase-content {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+#showcase .showcase-content .left-content {
+    padding-top: 3rem;
+    flex-basis: 60%;    
+}
+#showcase .showcase-content .left-content p:first-child{
+    margin-bottom: 1.5rem;
+ 
+}
+#showcase .showcase-content .right-content {
+        box-shadow: 2px 4px 6px #333 ;
+        background-color: #fff;
+        padding:  1.5rem 2rem;
+        line-height: 1.4;
+        text-align: center;
+}
+#showcase .showcase-content .right-content p:nth-child(2){
+    margin-bottom: 1rem;
+}
+#showcase .showcase-content .right-content form div {
+    margin: 2rem 0rem;
+}
+
+#showcase .showcase-content .right-content input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid purple;
+    width: 100%;    
+    height: 2rem;
+}
+#showcase .showcase-content .right-content input:focus {
+    outline: none;
+}
+::-webkit-input-placeholder{
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+#showcase .showcase-content .right-content button {
+    margin: 1rem;
+    padding: 0.5rem 4rem;
+    color: #fff;
+    background: green;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+/* Showcase Services */
+
+#showcase .services-section {
+    background: #fff;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#showcase .services-section .service {
+    flex: 1;
+    text-align: center;
+    padding: 2rem ;
+    line-height: 1.4;
+    color: #333;
+}
+#showcase .services-section .service .p-border::before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 8%;
+    border-top: 2.5px solid red;
+    margin-bottom: 1rem;
+}
+#showcase .services-section .service .s-heading {
+    margin-bottom: 0.75rem;
+}
+
+

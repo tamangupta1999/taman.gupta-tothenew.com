@@ -1,0 +1,31 @@
+.navbar {
+    flex-direction: column;
+    justify-content: center;
+}
+.navbar .contact-details {
+    text-align: center;
+}
+
+/* Showcase Section */
+
+#showcase .showcase-content {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#showcase .showcase-content .left-content {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+}
+
+#showcase .services-section {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#showcase .services-section .service {
+    flex-basis: 100%;
+}
+#showcase .showcase-content .left-content p{
+    text-align: center;
+}
