@@ -47,7 +47,7 @@ console.log(secondsArray)
 
 let sum = 0;
 
-secondsArray.map((o)=> {
+secondsArray.forEach((o)=> {
     sum+=parseInt(o);
 })
 console.log(sum);
