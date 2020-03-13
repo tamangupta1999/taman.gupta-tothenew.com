@@ -1,0 +1,31 @@
+.demo {
+  text-align: center;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+.demo h1 {
+  color: brown;
+}
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-item label {
+  padding: 1rem;
+}
+.form-item input[type=text]{
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid darkorange;
+}
+.form-item input[type=submit] {
+  padding: 0.5rem 1rem;
+  background: green;
+  margin-left: 2rem ;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: 1px solid green;
+}
